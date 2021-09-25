@@ -4,7 +4,7 @@ class Critter:
  
     @staticmethod    
     def status(): 
-        print("Common hohol name", Critter.total) 
+        print("Total hohol number", Critter.total) 
  
     def __init__(self, name, hunger = 0, boredom = 0): 
         self.__name = name 

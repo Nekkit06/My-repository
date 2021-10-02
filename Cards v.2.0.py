@@ -60,3 +60,14 @@ class Deck(Hand):
                 else:
                     print("I can't give any more cards:"),
                     "no more cards!"
+
+#main
+deck1 = Deck()
+print("New deck created.")
+print("Here it is:")
+print(deck1)
+
+deck1.populate()
+print("\nNew cards appeared in the deck.")
+print("This is how it looks now:")
+print(deck1)

@@ -27,7 +27,7 @@ class Hand:
                 rep += str(card) + "\t"
         else:
             rep = "<empty>"
-            return rep
+        return rep
         
     def clear(self):
         self.cards = []

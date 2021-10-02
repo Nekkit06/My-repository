@@ -73,3 +73,7 @@ print("NOW YOUR HAND IS:")
 print(your_hand)
 print("AND MY HAND IS:")
 print(my_hand)
+
+my_hand.clear()
+print("\nAnd my hand after I threw down all cards is:")
+print(my_hand)

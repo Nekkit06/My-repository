@@ -38,3 +38,17 @@ class Hand:
     def give(self, card, other_hand):
         self.cards.remove(card)
         other_hand.add(card)
+
+card1 = Card(rank = "A", suit = Card.SUITS[0])
+print("Deducing card-object on the screen")
+print(card1)
+
+card2 = Card(rank = "2", suit = Card.SUITS[0])
+card3 = Card(rank = "3", suit = Card.SUITS[0])
+card4 = Card(rank = "4", suit = Card.SUITS[0])
+card5 = Card(rank = "5", suit = Card.SUITS[0])
+print("\nDEDUCING 4 CARDS MORE:")
+print(card2)
+print(card3)
+print(card4)
+print(card5)

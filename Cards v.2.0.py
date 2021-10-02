@@ -61,6 +61,7 @@ class Deck(Hand):
                     print("I can't give any more cards:"),
                     "no more cards!"
 
+
 #main
 deck1 = Deck()
 print("New deck created.")
@@ -70,4 +71,21 @@ print(deck1)
 deck1.populate()
 print("\nNew cards appeared in the deck.")
 print("This is how it looks now:")
+print(deck1)
+
+deck1.shuffle()
+print("\nDeck shuffled.")
+print("This is how it looks now:")
+print(deck1)
+
+my_hand = Hand()
+your_hand = Hand()
+hands = [my_hand, your_hand]
+deck1.deal(hands, per_hand = 5)
+print("\nWe've been given 5 cards")
+print("My hand is:")
+print(my_hand)
+print("Your hand is:")
+print(your_hand)
+print("Left in deck:")
 print(deck1)

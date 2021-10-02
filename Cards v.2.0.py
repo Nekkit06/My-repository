@@ -89,3 +89,7 @@ print("Your hand is:")
 print(your_hand)
 print("Left in deck:")
 print(deck1)
+
+deck1.clear()
+print("\nDeck cleared.")
+print("This is how it looks now:", deck1)
